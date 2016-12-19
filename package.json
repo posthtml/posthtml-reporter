@@ -1,0 +1,39 @@
+{
+  "name": "posthtml-reporter",
+  "description": "Reporter Plugin for PostHTML",
+  "version": "0.1.0",
+  "main": "lib",
+  "engines": { "node": ">=4" },
+  "scripts": {
+    "lint": "standard",
+    "test": "nyc ava test/index.js -v",
+    "logs": "standard-changelog CHANGELOG.md -w",
+    "docs": "jsdoc2md lib/*.js > INDEX.md",
+    "clean": "rm -rf .nyc_output coverage jsdoc-api dmd",
+    "start": "sudo npm run clean && npm run lint && sudo npm test"
+  },
+  "dependencies": {
+    "chalk": "^1.x",
+    "log-symbols": "^1.x"
+  },
+  "devDependencies": {
+    "ava": "0.17.x",
+    "coveralls": "2.x",
+    "nyc": "10.x",
+    "posthtml": "^0.x",
+    "standard": "8.x"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "reporter",
+    "posthtml",
+    "posthtmlplugin"
+  ],
+  "author": "Michael Ciniawsky",
+  "repository": "posthtml/posthtml-reporter",
+  "homepage": "https://github.com/posthtml/posthtml-nested",
+  "bugs": "https://github.com/posthtml/posthtml-nested/issues",
+  "license": "MIT"
+}
