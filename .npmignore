@@ -1,0 +1,17 @@
+# FILES
+
+.travis.yml
+.gitignore
+.editorconfig
+.mversionrc
+
+npm-debug.log
+
+# DIRECTORIES
+
+.github
+.nyc_output
+
+test
+coverage
+node_modules
