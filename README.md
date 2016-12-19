@@ -36,7 +36,7 @@ Reporter Plugin to display PostHTML Messages (`result.messages`) on various Inte
 
 ### Console
 
-Display ❌ Error(s), ⚠️ Warnings(s) and ♻️ Dependencies by default
+Logs ❌ Error(s), ⚠️ Warnings(s) && ✅ Dependencies (default)
 
 ### Browser (WIP)
 
