@@ -24,7 +24,7 @@ npm i -D posthtml-reporter
 
 Reporter Plugin to display PostHTML Messages (`result.messages`) on various Interfaces
 
-> :warning: Add this plugin as the last in your plugins array to work properly
+> :warning: Add this plugin as the last in your plugins array to work properly or use [post-sequence](https://github.com/GitScrum/post-sequence)
 
 <h2 align="center">Options</h2>
 
